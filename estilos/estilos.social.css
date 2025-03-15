@@ -1,0 +1,46 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+img{
+    width: 100vw;
+}
+a.agithub{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a.agithub:hover{
+    background-color: rgb(78, 78, 78);
+    color: white;
+    text-decoration: underline;
+
+}
+
+a.alinkedin{
+    display: block;
+    background-color: rgb(23, 91, 218);
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a.alinkedin:hover{
+    background-color: rgb(8, 20, 185);
+    color: white;
+    text-decoration: underline;
+
+}
